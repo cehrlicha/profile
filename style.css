@@ -1,0 +1,140 @@
+
+
+body {
+  color: #444444;
+  background-color: #E4E4E4;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+.profile-description h2 {
+  color: #FEB337;
+}
+
+a {
+  color: #FEB337;
+}
+
+a:hover {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+footer {
+  background-color: #FFFFF4;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container-inline .inline-div {
+  vertical-align: middle;
+}
+
+.container-inline {
+  padding: 10px 0;
+}
+
+.card{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 30px 0 30px;
+  padding: 10px;
+  background-color: #FFFFF4;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.inline-div {
+    display: inline-block;
+    width: 50%;
+    margin-right: -2px;
+}
+
+#favorite-sports .inline-div {
+  width: 40%;
+}
+.inline-div-vertical {
+  vertical-align: middle;
+  border-radius: 0;
+  vertical-align: middle
+}
+
+.profile-description {
+  margin: 0;
+}
+
+#profile-picture {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.img-square {
+  border-radius: 5px;
+}
+
+.shadowed {
+  box-shadow: 4px 4px 3px lightgray;
+}
+
+.footer_social {
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+.btn img{
+  width: 5%;
+  height: auto;
+}
+
+.profile-txt {
+  text-align: center;
+}
+
+.ul-list {
+  list-style: none;
+}
+
+.ul-list-item{
+  padding-top: 5px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100px;
+  text-align: center;
+}
+#page-content {
+  margin-left: 100px;
+}
+
+#plane-icon {
+color: #FEB337;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* Here goes your CSS */
